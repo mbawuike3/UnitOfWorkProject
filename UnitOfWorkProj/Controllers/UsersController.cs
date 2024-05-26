@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using UnitOfWorkProj.Core.IConfiguration;
 using UnitOfWorkProj.Models;
 
@@ -64,7 +63,7 @@ namespace UnitOfWorkProj.Controllers
             }
             return new JsonResult("Something went wrong") { StatusCode = 500 };
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(Guid id)
         {
             var user = await _unitOfWork.Users.GetById(id);

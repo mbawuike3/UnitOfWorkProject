@@ -10,19 +10,19 @@ namespace UnitOfWorkProj.Core.Repositories
         public UserRepository(AppDbContext context, ILogger logger) : base(context, logger) { }
         
 
-        public override async Task<IEnumerable<User>> All()
-        {
-            try
-            {
-                return await _dbSet.ToListAsync();
-            }
-            catch (Exception ex)
-            {
+        //public override async Task<IEnumerable<User>> All()
+        //{
+        //    try
+        //    {
+        //        return await _dbSet.ToListAsync();
+        //    }
+        //    catch (Exception ex)
+        //    {
 
-                _logger.LogError(ex, "{Repo} All method error", typeof(UserRepository));
-                return new List<User>();
-            }
-        }
+        //        _logger.LogError(ex, "{Repo} All method error", typeof(UserRepository));
+        //        return new List<User>();
+        //    }
+        //}
         public override async Task<bool> Upsert(User entity)
         {
             try

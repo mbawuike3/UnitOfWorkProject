@@ -4528,11 +4528,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mbawu\\UnitOfWork\\UnitOfWorkProject\\UnitOfWorkProj\\UnitOfWorkProj\\UnitOfWorkProj.csproj",
+      "projectUniqueName": "C:\\Users\\mbawu\\unit\\UnitOfWorkProj\\UnitOfWorkProj.csproj",
       "projectName": "UnitOfWorkProj",
-      "projectPath": "C:\\Users\\mbawu\\UnitOfWork\\UnitOfWorkProject\\UnitOfWorkProj\\UnitOfWorkProj\\UnitOfWorkProj.csproj",
+      "projectPath": "C:\\Users\\mbawu\\unit\\UnitOfWorkProj\\UnitOfWorkProj.csproj",
       "packagesPath": "C:\\Users\\mbawu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mbawu\\UnitOfWork\\UnitOfWorkProject\\UnitOfWorkProj\\UnitOfWorkProj\\obj\\",
+      "outputPath": "C:\\Users\\mbawu\\unit\\UnitOfWorkProj\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mbawu\\AppData\\Roaming\\NuGet\\NuGet.Config",
